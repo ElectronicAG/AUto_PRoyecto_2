@@ -7,7 +7,7 @@ volatile byte statel = LOW;
 
 volatile unsigned long lastInterruptTimeR = 0;
 volatile unsigned long lastInterruptTimeL = 0;
-const unsigned long debounceDelay = 10; // en milisegundos
+const unsigned long debounceDelay = 50; // en milisegundos
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 //Funciones de interrrupcion
